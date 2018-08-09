@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=deice-width, initial-scale=1; maximum-scale=1" />
+	<title>Slutprojekt-Sara</title>
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/gridStyles.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+	<script src="script/jQueryFull.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+	<div id="headerwrap">
+		<span class="toggle-button">
+        	<div class="menu-bar menu-bar-top"></div>
+        	<div class="menu-bar menu-bar-middle"></div>
+        	<div class="menu-bar menu-bar-bottom"></div>
+        </span>
+ 
+		<header id="header">
+			<div class="row header_row">
+				<div class="column xs-four">
+					<div class="header-bar">
+						<div id="site-logo">
+							<a href="index.html" id="logo">
+								<span>Logo</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="column xs-eight">
+					<div id="menu" class="sidemenu sidemenu-off">
+						<nav>
+							<ul id="main-nav">
+								<li><a href="index.html">Hem</a></li>
+								<li><a href="arstider.html">Arstider</a></li>
+								<li><a href="bilder.html">Bilder</a></li>
+								<li><a href="kontakt.html" class="active">Kontakt</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="menu-wrap">
+				<div class="menu-sidebar">
+					<ul class="menu">
+						<li><a href="index.html">Hem</a></li>
+						<li><a href="arstider.html">Arstider</a></li>
+						<li><a href="bilder.html">Bilder</a></li>
+						<li><a href="kontakt.html" class="active">Kontakt</a></li>
+					</ul>			
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<main id="kontakt">
+
+		<section id="kontakt-hero" class="hero">
+			<div class="herowrap">
+				<div class="row">
+					<div class="column xs-twelve aligncenter">
+						<div class="text">
+							<h2>Välkommen att kontakta oss</h2>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+
+		<section id="contuct" class="aligncenter">
+
+			<div class="row">
+				<div class ="column xs-twelve mb-30 mt-30">
+					<h3>Här finns vi</h3>
+					<p>Ebbe Lieberathsgatan 18C,</p>
+					<p>412 65 Göteborg</p>
+				</div>
+			</div>
+
+			<div class="map">
+					<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:370px;width:100%;margin:0 auto'><div id='gmap_canvas' style='height:370px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://www.buyinstagramfollowersreviews.net/">genuine reviews</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(57.96735416940584,12.298064159375043),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(57.96735416940584,12.298064159375043)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Ebbe Lieberathsgatan 18C,  412 65 Göteborg<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>	
+			</div>
+
+		</section>
+
+		<section class="register">
+			<div class="row aligncenter mb-30">
+				<div id="formwrap">
+
+					<h2>Kontakta oss</h2>
+
+					<div id="form_content">
+						<form action="">
+							<input type = "text" id = "knamn" placeholder="Namn" />
+							<input type = "text" id = "kepost" placeholder="Epost" />
+							<textarea id="kmessage" placeholder="Meddelande"
+								rows="7"></textarea>
+							<button type = "button" class="btn"
+									id="btnKontakt"> Skicka </button>
+						</form>
+					
+						<div id = "kontaktOutput">
+							<h2>Följande information är skickat:</h2>
+							<p id="knamn"></p>
+							<p id="kepost"></p>
+							<p id="kmessage"></p>
+	 					</div>
+ 					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<section class="empty">
+
+			<div class="row">
+				<div class="column xs-twelve">
+				</div>
+			</div>
+
+		</section>
+
+	</main>
+
+	<div id=footerwrap>
+		<footer id="footer">
+			<div class="row">
+				<div class="column xs-twelve sm-six md-four mb-30">
+					<h3 class="mb-20">Här finns vi:</h3>
+					<p>
+						Ebbe Lieberathsgatan 18C<br>
+					    412 65 Göteborg<br>
+					    Sverige<br>
+					    +1234567890
+					</p>
+					<a href="kontact.html" class="btn-las-mer">Läs mer...</a>
+				</div>
+				<div class="column xs-twelve sm-six md-four pd-left mb-30">
+					<h3 class="mb-20">Arstider</h3>
+					<p>Lorem ipsum ...</p>
+					<a href="arstider.html" class="btn-las-mer">Läs mer...</a>
+				</div>
+				<div class="column xs-twelve sm-six md-four pd-left mb-30">
+					<h3 class="mb-20">Sociala länkar:</h3>
+					<p></p>
+					<a href="" class="btn-las-mer">Läs mer...</a>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="column xs-twelve mt-30 aligncenter">
+					<p>Copyright &copy Sarantsetseg Hedenfalk, 2016</p>
+				</div>			
+			</div>				
+		</footer>
+	</div>
+</div>
+<script src="script/scripts.js"></script>	
+</body>
+</html>
